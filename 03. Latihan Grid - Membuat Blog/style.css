@@ -11,30 +11,30 @@
   content: "";
   flex: auto;
   margin-left: 1rem;
-  border-top: 3px solid #eee;
+  border-top: 2px solid #333;
 }
 
-body{
-  font-family: "Montserrat",sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.text-title{
-color: #333;
-text-decoration: none;
+.text-title {
+  color: #333;
+  text-decoration: none;
 }
 
-.text-title:hover{
+.text-title:hover {
   text-decoration: underline;
   transition: all 1s ease-in-out;
 }
 
-.summary-post{
+.summary-post {
   font-family: "Open Sans", serif;
   color: #333;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
-.hearts{
+.hearts {
   color: red;
   font-size: larger;
 }

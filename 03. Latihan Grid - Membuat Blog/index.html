@@ -25,48 +25,49 @@
 <body>
     <div class="container p-3">
         <!-- Judul Website -->
-        <div class="row d-none d-lg-block">
+        <div class="row d-none d-md-block">
             <div class="col d-flex justify-content-center">
                 <p class="display-4 fw-semibold">Jago <span class="text-warning">Komputer</span></p>
             </div>
         </div>
         <!-- Akhir Judul Website -->
 
-        <div class="row mb-3">
+        <div class="row p-2">
             <!-- Awal Header -->
-            <div class="col">
-                <nav class="navbar navbar-expand-lg border border-start-0 border-end-0 mt-5 mb-4 p-0">
-                    <div class=" container-fluid">
-                        <a class="navbar-brand d-md-none fw-bold" href="#">Jago Komputer</a>
+            <div class="col mb-4">
+                <nav class="navbar navbar-expand-md bg-body-secondary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand display-5 fw-semibold d-md-none " href="#">Jago <span
+                                class="text-warning">Komputer</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse justify-content-center " id=" navbarNav">
-                            <ul class="navbar-nav ">
-                                <li class="nav-item p-2">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mx-auto mb-md-0">
+                                <li class="nav-item">
                                     <a class="nav-link text-dark" href="#">Home</a>
                                 </li>
-                                <li class="nav-item p-2">
+                                <li class="nav-item">
                                     <a class="nav-link text-dark" href="#">Features</a>
                                 </li>
-                                <li class="nav-item p-2">
+                                <li class="nav-item">
                                     <a class="nav-link text-dark" href="#">Blog</a>
                                 </li>
-                                <li class="nav-item p-2">
+                                <li class="nav-item">
                                     <a class="nav-link text-dark">Author</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <!-- Akhir Header -->
             </div>
-            <!-- Akhir Header -->
 
             <div class="row">
                 <!-- Awal Content -->
-                <div class="col-12 col-lg-7" id="content">
+                <div class="col-12 col-md-6 col-lg-7" id="content">
                     <!-- Awal Carousel -->
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
@@ -152,7 +153,7 @@
                 <!-- Akhir Content -->
 
                 <!-- Awal Sidebar -->
-                <div class="d-none d-lg-block col-12 col-lg-4 ms-5">
+                <div class="col-12 col-md-5 col-lg-4 ms-0 ms-md-5 mt-4 mt-md-0">
                     <!-- Awal About Me -->
                     <p class="h5 box-title">About Me</p>
                     <div class="d-flex flex-column align-items-center">
@@ -164,18 +165,26 @@
                     <!-- Akhir About Me -->
 
                     <!-- Awal Recent Posts -->
-                    <p class="h5 box-title mt-5">Recent Posts</p>
-                    <div class="mt-3 bg-body-tertiary p-3">
-                        <img class="img-fluid" src="img/Windows-10-Lite-spectre.webp" alt="">
-                        <p class="mt-3 h6 text-center ">Cara Install Windows 10 Ghost Spectre</p>
-                    </div>
-                    <div class="mt-3 bg-body-tertiary p-3">
-                        <img class="img-fluid" src="img/Windows-10-Lite-spectre.webp" alt="">
-                        <p class="mt-3 h6 text-center ">Cara Install Windows 10 Ghost Spectre</p>
-                    </div>
-                    <div class="mt-3 bg-body-tertiary p-3">
-                        <img class="img-fluid" src="img/Windows-10-Lite-spectre.webp" alt="">
-                        <p class="mt-3 h6 text-center ">Cara Install Windows 10 Ghost Spectre</p>
+                    <div class="bg-body-secondary mt-5 p-3">
+                        <p class="h5 box-title">Popular Posts</p>
+                        <div class="mt-3 ">
+                            <img class="img-fluid mb-3" src="img/Windows-10-Lite-spectre.webp" alt="">
+                            <a class=" h6 text-title hover icon-link-hover text-center " href="">Cara
+                                Install Windows 10 Ghost Spectre</a>
+                            <hr>
+                        </div>
+                        <div class="mt-3">
+                            <img class="img-fluid mb-3" src="img/Windows-10-Lite-spectre.webp" alt="">
+                            <a class=" h6 text-title hover icon-link-hover text-center " href="">Cara
+                                Install Windows 10 Ghost Spectre</a>
+                            <hr>
+                        </div>
+                        <div class="mt-3">
+                            <img class="img-fluid mb-3" src="img/Windows-10-Lite-spectre.webp" alt="">
+                            <a class=" h6 text-title hover icon-link-hover text-center " href="">Cara
+                                Install Windows 10 Ghost Spectre</a>
+                            <hr>
+                        </div>
                     </div>
                     <!-- Akhir Recent Posts -->
                 </div>
@@ -185,10 +194,12 @@
         </div>
     </div>
 
+    <!-- Awal Footer -->
     <nav class="bg-warning">
         <p class="text-center py-2">Made with <span class="hearts">&hearts;
             </span> by Wijaya</p>
     </nav>
+    <!-- Akhir Footer -->
 
     <!-- CDN Bootstrap JS -->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
