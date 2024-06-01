@@ -1,20 +1,40 @@
 .nav-item:hover {
-  background-color: #111;
-}
-
-.nav-item:hover > a {
-  color: white;
+  background-color: #ffc107;
 }
 
 .box-title {
-
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .box-title::after {
-    content: '';
-    flex: auto;
-    margin-left: 1rem;
-    border-top: 3px solid #eee;
+  content: "";
+  flex: auto;
+  margin-left: 1rem;
+  border-top: 3px solid #eee;
+}
+
+body{
+  font-family: "Montserrat",sans-serif;
+}
+
+.text-title{
+color: #333;
+text-decoration: none;
+}
+
+.text-title:hover{
+  text-decoration: underline;
+  transition: all 1s ease-in-out;
+}
+
+.summary-post{
+  font-family: "Open Sans", serif;
+  color: #333;
+  font-size: .875rem;
+}
+
+.hearts{
+  color: red;
+  font-size: larger;
 }
